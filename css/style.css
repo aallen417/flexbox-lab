@@ -85,6 +85,15 @@
   main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    
   }
   
   nav button {
